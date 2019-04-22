@@ -48,12 +48,16 @@ header{
 #bio-image{
     float:left;
     width: 25%;
+    border-right: 25px solid #ffffff;
 }
 
 #allimages{
     float:left;
     overflow: hidden;
     
+}
+#contactinfo{
+    display: inline;
 }
 #submitButton{
     background-color: #4aaaa5;
