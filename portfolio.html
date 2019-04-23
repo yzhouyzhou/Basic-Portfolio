@@ -3,64 +3,50 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+  <title>Student Bio - Ying Zhou</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+  
   <header>
-      <div class="container">
-        <div id="headerName">
-          <h1>
-              Ying&nbsp;&nbsp;&nbsp;&nbsp;Zhou
-          </h1>
-        </div>
-        <div id="headerLink">
-          <h4>           
+    <div id="headerName">         
+      Ying&nbsp;&nbsp;&nbsp;&nbsp;Zhou
+    </div>
+    <div id="headerLink">                     
           <a href="./index.html">About</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a href="./portfolio.html">Portfolio</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a href="./contact.html">Contact</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </h4> 
-        </div>        
-     </div>    
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
+    </div>          
   </header>
-  <hr>
+  
+  <div class="wrapper">
+    <section class="content-box">
 
-  <div class="content-box">
-
-    <section id="main-bio">
-      <h1>Portfolio</h1>
-      <hr>
+      <div id="content-head">Portfolio</div>      
+     
       <div id="allimages">
-      <img src="./assets/images/cat1.jpg" alt="mycats">
-      <img src="./assets/images/cat2.jpg" alt="mycats">
-      <img src="./assets/images/cat3.jpg" alt="mycats">
-      <img src="./assets/images/cat4.jpg" alt="mycats">
-      <img src="./assets/images/cat5.jpg" alt="mycats">
-      <img src="./assets/images/cat6.jpg" alt="mycats">
-      <img src="./assets/images/cat7.jpg" alt="mycats">
-      <img src="./assets/images/cat8.jpg" alt="mycats">
-    </div>
-      <!-- <img id="img" src="https://cdn.pixabay.com/photo/2016/06/18/17/42/image-1465348_1280.jpg" alt="Ying Zhou 1"> -->
-      <!-- <img id="img" src="https://static.addtoany.com/images/dracaena-cinnabari.jpg" alt="Ying Zhou 2"> -->
-      <!-- <img id="img" src="https://www.gettyimages.com/gi-resources/images/Embed/new/embed2.jpg" alt="Ying Zhou 3"> -->
-      <!-- <img id="img" src="http://www.thinkstockphotos.com/ts-resources/images/home/TS_AnonHP_462882495_01.jpg" alt="Ying Zhou 4"> -->
-    </section>    
-  </div>
+        <img src="./assets/images/cat1.jpg" alt="mycats">
+        <img src="./assets/images/cat2.jpg" alt="mycats">
+        <img src="./assets/images/cat3.jpg" alt="mycats">
+        <img src="./assets/images/cat4.jpg" alt="mycats">
+        <img src="./assets/images/cat5.jpg" alt="mycats">
+        <img src="./assets/images/cat6.jpg" alt="mycats">
+        <img src="./assets/images/cat7.jpg" alt="mycats">
+        <img src="./assets/images/cat8.jpg" alt="mycats">
+      </div>
 
-  <div>
-    <p class="footer-box">Copywrite @</p>
-  </div>
+    </section> 
+</div>
 
+<footer class="footer-box">Copywrite @2019</footer>
+ 
 </body>
 
 </html>
